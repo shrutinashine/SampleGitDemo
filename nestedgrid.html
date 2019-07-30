@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nested Grid</title>
+        <style>
+            body{
+                background-image: url(https://image.freepik.com/free-vector/cat-dog-cartoon_24640-47224.jpg);
+            }
+            #grid{
+                display: grid;
+                grid-template-rows :1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr;
+                
+                /* grid-gap: 2vw; */
+            }
+            #grid div{
+                font-size: 10vw;
+                padding: .5em;
+                background: gold;
+                text-align:center;
+                border: 0px;
+                border-radius: 600px;
+            }
+            #grid div:hover{
+                /* background-image: url(https://image.freepik.com/free-vector/cat-dog-cartoon_24640-47224.jpg); */
+                opacity: 0;
+            }
+            /* #grid1{
+                display: grid;
+                grid-template-rows :1fr 1fr;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 2vw;
+            }
+            #grid1 div{
+                font-size: 2vw;
+                padding: .5em;
+                background:green;
+                text-align:center; */
+            }
+        </style>
+    </head>
+    <body>
+        <div id="grid">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <!-- <div id="grid1">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div> -->
+            </div>
+        </div>
+    </body>
+</html>
